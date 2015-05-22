@@ -1,0 +1,81 @@
+#banner {
+	background-image: url(image_path("welcome_banner_image.jpg"));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	min-height: 500px;
+	display: table;
+	.banner_content {
+		color: white;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		h1 {
+			font-size: 2.5em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+	}
+}
+
+#graham_intro {
+	color: #565a5c;
+	text-align: center;
+}
+
+#carousel {
+	padding-left: 6%;
+}
+
+#residence_pool {
+	background-image: url(image_path("residence_pool.jpg"));
+	background-size: cover;
+	width: 25%;
+	min-height: 250px;
+	display: table;
+	h1 {
+		color: white;
+		text-align: center;
+		margin-top: 40%;
+	}
+}
+
+#crescent_outdoor {
+	background-image: url(image_path("crescent_outdoor.jpg"));
+	background-size: cover;
+	width: 25%;
+	min-height: 250px;
+	position: relative;
+	display: table;
+	h1 {
+		color: white;
+		text-align: center;
+		margin-top: 40%;
+	}
+}
+
+#st_outdoor {
+	background-image: url(image_path("st_outdoor.jpg"));
+	background-size: cover;
+	width: 25%;
+	min-height: 250px;
+	position: relative;
+	display: table;
+	h1 {
+		color: white;
+		text-align: center;
+		margin-top: 40%;
+	}
+}
+
+footer {
+	text-align: center;
+	margin-top: 5%;
+	background-color: #565a5c;
+	background-size: cover;
+	h4 {
+		color: white;
+	}
+}
