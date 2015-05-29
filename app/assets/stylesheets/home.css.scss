@@ -1,5 +1,25 @@
+@media screen and (max-device-width: 800px) {
+	body { background: url(phttps://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) #000 no-repeat center center fixed; }
+	#bgvid { display: none; }
+}
+
+video#bgvid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg) no-repeat;
+	background-size: cover;
+}
+
 #banner {
-	background-image: url(image_path("welcome_banner_image.jpg"));
+	/*background-image: url(image_path("welcome_banner_image.jpg"));*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
